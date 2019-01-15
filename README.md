@@ -21,7 +21,8 @@ This repository contains experiment code for our Papaer 'A Multi-granularity Fea
 
 we recommend the evaluation code in project [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch) for test and evaluation
 
-##Acknowledgement
+## Acknowledgement
 
 [1] [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch)
+
 [2] [MGN-pytorch](https://github.com/seathiefwang/MGN-pytorch)
