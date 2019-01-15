@@ -13,7 +13,7 @@ This repository contains experiment code for our Papaer 'A Multi-granularity Fea
 
 ## train：
 
-'''
+'''shell
 	python3 main.py  --nGPU 2 --datadir /mnt/datasets/Market-1501-v15.09.15/ --batchid 16 --batchtest 32 --test_every 100 --epochs 600 --lr_scheduler warmup_10_0 --decay_type sgdr_10_2 --lr 2e-3  --loss 1*CrossEntropy+2*Triplet --margin 1.2 --save market-1501  --optimizer ADAM --amsgrad --model mfbn --random_erasing --save_models 
 '''
 
@@ -21,7 +21,8 @@ This repository contains experiment code for our Papaer 'A Multi-granularity Fea
 
 we recommend the evaluation code in project [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch) for test and evaluation
 
-##Acknowledgement
+## Acknowledgement
 
 [1] [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch)
+
 [2] [MGN-pytorch](https://github.com/seathiefwang/MGN-pytorch)
