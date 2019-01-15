@@ -14,7 +14,7 @@ This repository contains experiment code for our Papaer 'A Multi-granularity Fea
 ## train：
 
 ```
-	python3 main.py  --nGPU 2 --datadir /mnt/datasets/Market-1501-v15.09.15/ --batchid 16 --batchtest 32 --test_every 100 --epochs 600 --lr_scheduler warmup_10_0 --decay_type sgdr_10_2 --lr 2e-3  --loss 1*CrossEntropy+2*Triplet --margin 1.2 --save market-1501  --optimizer ADAM --amsgrad --model mfbn --random_erasing --save_models 
+python3 main.py  --nGPU 2 --datadir /mnt/datasets/Market-1501-v15.09.15/ --batchid 16 --batchtest 32 --test_every 100 --epochs 600 --lr_scheduler warmup_10_0 --decay_type sgdr_10_2 --lr 2e-3  --loss 1*CrossEntropy+2*Triplet --margin 1.2 --save market-1501  --optimizer ADAM --amsgrad --model mfbn --random_erasing --save_models 
 ```
 
 ## test and evaluation:
