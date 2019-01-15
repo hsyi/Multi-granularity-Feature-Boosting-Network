@@ -1,5 +1,5 @@
 # Multi-granularity-Feature-Boosting-Network
-This repository contains experiment code for our Paper 'MFBN: An Efficient Base Model For Person Re-IDentification'
+This repository contains experiment code for our paper 'MFBN: An Efficient Base Model For Person Re-IDentification'
 
 ![MFBN](source/MFBN2-1.jpg)
 
